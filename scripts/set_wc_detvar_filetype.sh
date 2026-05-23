@@ -44,11 +44,11 @@ done
 
 # Check options.
 
-if [ x$reco1def = x ]; then
+if [ x$deffiletype = x ]; then
   echo "No WireCell DetVar filetype specified."
   exit 1
 fi
 
-echo $reco1def > $reco1def.fcl
+echo $deffiletype > $deffiletype.fcl
 
 exit 0
